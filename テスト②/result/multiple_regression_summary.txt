@@ -1,0 +1,31 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            growth rate   R-squared:                       0.238
+Model:                            OLS   Adj. R-squared:                  0.230
+Method:                 Least Squares   F-statistic:                     28.85
+Date:                Wed, 18 Sep 2024   Prob (F-statistic):           2.92e-16
+Time:                        16:37:54   Log-Likelihood:                -13.271
+No. Observations:                 281   AIC:                             34.54
+Df Residuals:                     277   BIC:                             49.09
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+======================================================================================
+                         coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------
+KH2PO4/K2HPO4 (mM)     0.0873      0.003     32.245      0.000       0.082       0.093
+FeSO4 (É M)            -0.1136      0.004    -32.245      0.000      -0.121      -0.107
+Thiamine (É M)         -0.0855      0.003    -32.245      0.000      -0.091      -0.080
+(NH4)2SO4 (mM)        -0.1103      0.014     -7.975      0.000      -0.138      -0.083
+MgSO4 (mM)             0.0986      0.019      5.132      0.000       0.061       0.136
+Glucose (mM)          -0.0302      0.014     -2.197      0.029      -0.057      -0.003
+==============================================================================
+Omnibus:                       17.351   Durbin-Watson:                   0.734
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               33.805
+Skew:                           0.319   Prob(JB):                     4.56e-08
+Kurtosis:                       4.575   Cond. No.                     7.10e+17
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The smallest eigenvalue is 8.64e-33. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.
